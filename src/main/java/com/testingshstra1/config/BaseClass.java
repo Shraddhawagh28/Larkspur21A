@@ -4,7 +4,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-import com.testinshastra.keyword.UiKeyword;
+import com.testingshastra.keyword.UiKeyword;
 
 public class BaseClass {
 	UiKeyword keyword = new UiKeyword();

@@ -1,4 +1,4 @@
-package com.testinshastra.keyword;
+package com.testingshastra.keyword;
 
 import java.time.Duration;
 
@@ -33,7 +33,7 @@ public class Keyword {
 	 *         </ul>
 	 */
 
-	public static void openBrowser(String browserName) {
+	public static RemoteWebDriver openBrowser(String browserName) {
 		if (browserName.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
@@ -48,6 +48,7 @@ public class Keyword {
 		}
 		LOG.info(browserName + " is launched sccessfully");
 		wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		return driver;
 	}
 
 	public static void launchUrl(String url) {
@@ -111,5 +112,12 @@ public static void enterText(String locator,String textToEnter) {
 	public void closeBrowser() {
 		driver.close();
 	}
+
+	public void waitForPresenceOfElement(WebElement quickJoinMeetingTxt) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
 
 }

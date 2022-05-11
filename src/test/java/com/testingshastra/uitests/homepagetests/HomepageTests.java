@@ -3,15 +3,15 @@ package com.testingshastra.uitests.homepagetests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.testingshastra.keyword.UiKeyword;
 import com.testingshstra1.config.BaseClass;
-import com.testinshastra.keyword.UiKeyword;
 /**
  * 
  * @author shraddhawagh
  *
  */
 
-public class HomepageTests extends BaseClass {
+public class HomepageTests {
 	UiKeyword keyword=new UiKeyword();
     String expectedTitle="Testing Shastra | Training | Placement";
     @Test

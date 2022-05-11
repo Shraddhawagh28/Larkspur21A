@@ -5,8 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import org.testng.log4testng.Logger;
 
+import com.testingshastra.keyword.Keyword;
 import com.testingshstra1.config.BaseFramework;
-import com.testinshastra.keyword.Keyword;
 import com.util.constants.Locator;
 import com.util.constants.LocatorType;
 import com.util.constants.Proputils;

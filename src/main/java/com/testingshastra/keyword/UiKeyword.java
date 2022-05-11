@@ -1,4 +1,4 @@
-package com.testinshastra.keyword;
+package com.testingshastra.keyword;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;

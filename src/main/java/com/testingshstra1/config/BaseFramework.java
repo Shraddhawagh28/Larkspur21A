@@ -1,12 +1,11 @@
 package com.testingshstra1.config;
 
+import static com.testingshastra.keyword.Keyword.*;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-import com.testinshastra.keyword.Keyword;
-
-
-import static com.testinshastra.keyword.Keyword.*;
+import com.testingshastra.keyword.Keyword;
 
 public class BaseFramework {
 	@BeforeMethod
