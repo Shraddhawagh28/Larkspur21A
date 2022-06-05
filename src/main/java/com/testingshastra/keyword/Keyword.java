@@ -119,5 +119,18 @@ public static void enterText(String locator,String textToEnter) {
 	}
 
 	
+	
+
+	public static String getTitle() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public static String getTitle1() {
+		return driver.getTitle();
+		
+	}
+
+	
 
 }
