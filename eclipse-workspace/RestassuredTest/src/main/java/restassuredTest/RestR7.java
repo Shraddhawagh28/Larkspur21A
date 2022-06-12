@@ -62,16 +62,16 @@ public class RestR7 {
 		
 	
 	//	String json = null;
-		JsonPath js = new JsonPath(json);
-	      String courseNames[]= {"webautomation","api","MobileAutomation"};
-	      int priceSum=0;
-	      for(int i=0;i<js.getInt("course.size()");i++){
-	    	  for(int j=0;j<js.getInt("courses"+courseNames[i]+".size()");j++) {
-	    		   priceSum=priceSum+js.getInt("courses."+courseNames[i]+"["+j+"].price");
+		//JsonPath js = new JsonPath(json);
+	 //     String courseNames[]= {"webautomation","api","MobileAutomation"};
+	 //     int priceSum=0;
+	 //     for(int i=0;i<js.getInt("course.size()");i++){
+	 //   	  for(int j=0;j<js.getInt("courses"+courseNames[i]+".size()");j++) {
+	    	//	   priceSum=priceSum+js.getInt("courses."+courseNames[i]+"["+j+"].price");
 	    		  
-	    	  }
-	      }
-	      System.out.println("sum of all courses price is:"+priceSum);
+	 //   	  }
+	  //    }
+	 //     System.out.println("sum of all courses price is:"+priceSum);
 	  
 	   
 	       
